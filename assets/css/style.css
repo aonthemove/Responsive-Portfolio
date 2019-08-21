@@ -1,0 +1,228 @@
+body{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+ margin: 0;
+  background: #011526;
+  }
+.header{
+  z-index: 6;
+  position: static;
+  left: 0;
+  top: 0;
+  padding-bottom: 52px;
+  width: 100%;
+  background-color: lightgrey;
+  border-bottom: 3px solid #011526;
+}  
+#name{
+  color: #27069e;
+ background-color:  white;
+  z-index: 5;
+  box-sizing: border-box;
+  position: absolute;
+  display: inline;
+  padding: 0px 10px;
+  top: 0;
+  margin: 0px 0px 0px 150px;
+}
+#links{
+  padding-top: 30px;
+  position: absolute;
+  z-index: 5;
+  display: inline;
+  margin-left: 850px;
+  background-color: lightgrey;
+}  
+h3:hover  {
+  color: #27069e;
+}
+h1{
+  float: left;
+  z-index: 6;
+  width: 100%;
+  line-height: 40px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+} 
+ h3{
+   color: #27069e;
+  float: right;
+  padding: 0px 10px;
+  margin: 0px 15px 0px 0px;
+  background-color: lightgrey;
+  z-index: 6;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  } 
+  .footer {
+    z-index: 6;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+   background-color: white;  
+    color: #27069e;
+    font-weight: bold;
+    text-align: center;
+    border-top: 3px solid #011526;
+ }
+ .btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  color: #012340;
+}
+.images{
+  float: left;
+}
+.btn:hover  {
+  background: #011526;
+  color: white;
+}
+  .aboutme,.contact,.portfolio{
+  font-weight: bold;
+  margin: 150px;
+  padding: 0px 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ h3:active{
+   color: #012340;
+ }
+ .links:hover{
+  color: white;
+}
+ h2{
+  padding-top: 20px;
+  background-color: white;
+  border-bottom: 3px solid #011526; 
+  font-family: 'Georgia', Times, Times New Roman, serif;
+ }
+ img{
+  padding-bottom: 0px;
+ }
+ p{
+  padding: 30px 0;
+  margin: 0px 10px;
+  text-align: center;
+  padding-bottom: 1px;
+}
+body {box-sizing: border-box}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  float: left;
+  padding: 0px 35px 0px 0px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.container{
+  width: 300px;
+  padding-top: 20px;
+}
+.list{
+  margin-top: 60px;
+}
+li{
+  padding-bottom: 20px;
+}
+.caption{
+  text-align: center;
+  color: white;
+  background-color: #011526;
+z-index: 3;
+position: absolute;
+font-size: 20px;
+width: 300px;
+bottom: 0px;
+
+}
+@media screen and (max-width: 1366px){
+  #links{
+    /* margin-right: 700px; */
+    margin: 0;
+    z-index: 5;
+    background-color: lightgrey;
+   right:0;
+   padding-top: 5px;
+  }
+  h3{
+    padding: 0px 10px;
+  margin: 0px 15px 0px 0px;
+  }
+  a{
+    padding-right: 2px;
+  }
+  input, textarea{
+    width: 80%;
+}
+.profileimage{
+  padding-bottom: 100px;
+  padding-top: 30px;
+}
+.caption{
+bottom: 0px;
+}
+#name{
+ 
+  margin: 0px 0px 0px 100px;
+}
+
+@media screen and (max-width: 768px){
+.header{
+  max-width: 100%;
+  padding-top: 40px;
+
+}
+#name{
+  font-size:12;
+}
+  #links{
+    /* margin-right: 700px; */
+margin-top:25px;
+   padding-top: 5px;
+
+  }
+ h3{
+   float: right;
+   margin-right: 0;
+ }
+  a{
+    padding-right: 2px;
+  }
+  input, textarea{
+    width: 80%;
+}
+
+.profileimage{
+  padding-bottom: 100px;
+  padding-top: 30px;
+}
+.caption{
+bottom: 0px;
+}
+#name{
+  margin: 0px 0px 0px 100px;
+}
+
+body{
+  font-size: 10;
+  width: 800px;
+}
+img{
+  size: 20%;
+}
+p{
+  margin: 0px;
+  text-align: center;
+}
+@media screen and (max-width: 640px){
+  
+}
